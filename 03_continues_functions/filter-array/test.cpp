@@ -1,0 +1,9 @@
+#include <catch.hpp>
+#include <filter_array.h>
+#include <vector>
+
+TEST_CASE("Simple") {
+    std::vector<int> array{1, 0, 0, 2, 0, 3, 0};
+    FilterArray(array);
+    CHECK(array == std::vector<int>{1, 2, 3});
+}

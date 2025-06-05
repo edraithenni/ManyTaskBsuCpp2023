@@ -1,0 +1,2 @@
+add_catch(test_arithmetic_mean arithmetic_mean_test.cpp)
+add_catch(test_arithmetic_mean_private .arithmetic_mean_test.cpp)

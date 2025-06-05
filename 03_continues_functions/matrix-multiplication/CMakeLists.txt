@@ -1,0 +1,2 @@
+add_catch(test_matrix_multiplication test.cpp)
+add_catch(test_matrix_multiplication_private .private_test.cpp)
